@@ -25,6 +25,10 @@ function start() {
 
 
 function destroy() {
+    console.log('destroy');
+    
     clearInterval(interval)
+
+    // list.length = 0
 }
 

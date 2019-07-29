@@ -1,4 +1,4 @@
-const btn = document.querySelector(".btn")
+const btn = document.querySelector("button")
 
 
 let objs = []
@@ -14,7 +14,7 @@ const onClick = _ => {
     }
 
     setTimeout(_ => {
-        objs = []
+        objs.length = 0
         console.log('done')
     }, 5000)
 }
